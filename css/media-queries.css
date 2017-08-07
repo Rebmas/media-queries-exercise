@@ -4,15 +4,25 @@ body    {
     background-color: whitesmoke;
     font-family:'lato',sans-serif;
 }
+h1 {
+    float:left;
+}
 .nav-links{
     list-style-type:none;
     background-color:lightslategray;
     float:right;
     display:inline-block;
 }
+.header-img {
+    clear: both;
+}
+.nav-links > li {
+    display: inline-block;
+}
 
-.main {
+.main   {
     width: 50%;
+
 }
 .sub-section {
     width: 50%;
