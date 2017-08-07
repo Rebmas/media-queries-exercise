@@ -2,22 +2,30 @@ body    {
     margin:0;
     padding: 0;
     background-color: whitesmoke;
-    font-family: 'lato',sans-serif;
+    font-family:'lato',sans-serif;
 }
 .nav-links{
     list-style-type:none;
     background-color:lightslategray;
-    float:left;
+    float:right;
     display:inline-block;
 }
 
+.main {
+    width: 50%;
+}
+.sub-section {
+    width: 50%;
+}
+
+
 
 /*small devices (tablets, 768px and up) */
-@media screen and (min-width:768px) {/* ... */}
+/*@media screen and (min-width:768px) {/* ... */}
 
 /* Medium devices (desktops, 992px and up */
-@media screen and (min-width:992px) {/* ... */}
+/*@media screen and (min-width:992px) {/* ... */}
 
-/* Large devices (Large desktops, 1200px and up) */
-@media screen and (min-width:1200px) {/* ... */}
+/* Large devices (Large desktops, 1200px and up)
+/*@media screen and (min-width:1200px) {/* ... */}
 
