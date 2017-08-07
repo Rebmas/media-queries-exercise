@@ -9,14 +9,14 @@ h1 {
 }
 .nav-links{
     list-style-type:none;
-    background-color:white;
+    background-color:whitesmoke;
     float:right;
     display:inline-block;
     padding-right: 20px;
+    word-spacing: 10px;
 }
 .header-img {
     clear: both;
-    height:890px;
     width:385px;
 
 }
@@ -26,11 +26,20 @@ h1 {
 
 .main   {
     width: 50%;
-    
-
+    float: left;
 }
+
 .sub-section {
     width: 50%;
+    float: left;
+}
+footer  {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    left: 0;
+    padding: 1px;
+
 
 }
 
@@ -43,7 +52,6 @@ h1 {
 @media screen and (min-width:992px) {
     .hidden-on-mobile {
     display: none;}}
-
 
 
 
