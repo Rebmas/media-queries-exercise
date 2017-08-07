@@ -24,14 +24,15 @@ h1 {
     display: inline-block;
 }
 
-.main   {
-    width: 50%;
-    
+.main{
+    height:50%;
+    width:50%;
 
 }
-.sub-section {
-    width: 50%;
 
+.sub-section{
+    width:50%;
+    height:50%;
 }
 
 
