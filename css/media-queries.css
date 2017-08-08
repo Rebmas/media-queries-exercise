@@ -1,6 +1,6 @@
 body    {
     margin:0;
-    padding: 0px;
+    padding: 0;
     background-color: whitesmoke;
     font-family:'lato',sans-serif;
 }
@@ -45,11 +45,21 @@ footer  {
 
 
 
-/*small devices (tablets, 768px and up) */
-@media screen and (min-width:768px) {
-
-    h1.hidden-on-mobil
+/*small devices (tablets, 300px and up) */
+@media screen and (min-width:300px){
+.nav-links > li, h1{
+    list-style-type:none;
+    background-color:white;
+    margin-left:auto;
+    margin-right:auto;
+    width:100%;
+    text-align:center;
 }
+
+    .sub-section{
+        clear:left;}
+}
+
 
 /*Medium devices (desktops, 992px and up */
 @media screen and (min-width:992px) {
