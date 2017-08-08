@@ -42,11 +42,14 @@ footer  {
 
 
 }
-ldskjf
+
 
 
 /*small devices (tablets, 768px and up) */
-@media screen and (min-width:768px) {}
+@media screen and (min-width:768px) {
+
+    h1.hidden-on-mobil
+}
 
 /*Medium devices (desktops, 992px and up */
 @media screen and (min-width:992px) {
