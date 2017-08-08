@@ -57,41 +57,42 @@
 @media screen and (min-width:992px) {
     .hidden-on-mobile {
         display: none;}
-
-body    {
+h1{
+    text-align:left;
+    float:left;
+    width:67%;
+}
+body{
     margin:0;
     padding: 0;
+    height:100%;
+    width:100%;
     background-color: whitesmoke;
     font-family:'lato',sans-serif;
 }
-/*h1 {*/
-    /*float:left;*/
-/*}*/
-.nav-links{
-    list-style-type:none;
-    background-color:whitesmoke;
-    float:right;
-    display:inline-block;
-    padding-right: 20px;
-    word-spacing: 10px;
-}
+
 .header-img img {
     clear: both;
     width:985px;
     display:block;
 }
-.nav-links > li {
+.nav-links li {
     display: inline-block;
     float:right;
+    padding:.2em;
+    line-height:inline;
 }
 
-.main   {
-    width: 40%;
-    float: left;
+.nav-links{
+    text-align:right;
 }
-
+.main {
+        width: 67%;
+        float: left;
+    padding:.5em;
+}
 .sub-section {
-    width: 40%;
+    width: 33%;
     float: left;
 }
 footer  {
